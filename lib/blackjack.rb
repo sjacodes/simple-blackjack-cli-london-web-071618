@@ -35,7 +35,8 @@ def hit?(current_card_total)
   prompt_user
   user_input = get_user_input
   if user_input = 's'
-    
+    return card_total
+  
   
   # code hit? here
 end
