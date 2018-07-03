@@ -60,6 +60,7 @@ def runner
   until card_total > 21
     prompt_user
     display_card_total
+  end
   end_game
 end
     
