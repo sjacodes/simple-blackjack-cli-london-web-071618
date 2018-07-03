@@ -40,19 +40,11 @@ def hit?(current_card_total)
     deal_card += card_total
   else
     invalid_command
-  
-  # code hit? here
-end
-
-describe "#hit?" do
-  before(:each) do
-    def get_user_input
-      "s"
-    end
   end
+end
   
 def invalid_command
-  puts ""
+  puts "Please enter a valid command"
 end
 
 #####################################################
