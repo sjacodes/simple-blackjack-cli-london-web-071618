@@ -52,7 +52,7 @@ describe "#hit?" do
   end
   
 def invalid_command
-  
+  puts ""
 end
 
 #####################################################
