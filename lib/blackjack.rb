@@ -31,10 +31,18 @@ def initial_round
   return card_total
 end
 
-def hit?
+def hit?(current_card_total)
+  
   # code hit? here
 end
 
+describe "#hit?" do
+  before(:each) do
+    def get_user_input
+      "s"
+    end
+  end
+  
 def invalid_command
   # code invalid_command here
 end
