@@ -16,6 +16,7 @@ def prompt_user
 end
 
 def get_user_input(user_input)
+  puts user_input
   user_input = gets.chomp
 end
 
