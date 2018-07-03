@@ -37,7 +37,7 @@ def hit?(current_card_total)
   if user_input = 's'
     puts card_total
   elsif user_input = 'h'
-    
+    card_total
   
   # code hit? here
 end
