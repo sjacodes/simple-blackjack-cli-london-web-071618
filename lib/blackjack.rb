@@ -55,6 +55,15 @@ end
 #####################################################
 
 def runner
+  welcome
+  initial_round
+  prompt_user
   
 end
     
+def run_program
+    welcome
+    ask_name
+    name = store_name
+    personalized_welcome(name)
+end
