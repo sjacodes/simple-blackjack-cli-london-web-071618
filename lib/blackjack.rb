@@ -38,6 +38,8 @@ def hit?(current_card_total)
     puts card_total
   elsif user_input = 'h'
     deal_card += card_total
+  else
+    invalid_command
   
   # code hit? here
 end
@@ -50,7 +52,7 @@ describe "#hit?" do
   end
   
 def invalid_command
-  # code invalid_command here
+  
 end
 
 #####################################################
